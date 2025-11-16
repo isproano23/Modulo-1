@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="juego.js"></script>
+    <script src="servicioJuego.js"></script>
+    <script src="utilitarios.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        #computador {
+            width: 100px;
+            height: 100px;
+        }
+        .puntos {
+            font-size: 18px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Juega piedra papel o tijera</h1>
+    
+    <div class="puntos">
+        <p>Usuario: <span id="puntosUsuario">0</span></p>
+        <p>Computador: <span id="puntosComputador">0</span></p>
+    </div>
+    
+    <div>
+        <img src="imagenes/piedra.png" alt="Piedra" onclick="jugar('piedra')">
+        <img src="imagenes/papel.png" alt="Papel" onclick="jugar('papel')">
+        <img src="imagenes/tijera.png" alt="Tijera" onclick="jugar('tijera')">
+    </div>
+    
+    <div>
+        <p>Selección del computador:</p>
+        <img id="computador" src="" alt="Seleccion del computador">
+    </div>
+    
+    <p id="resultado"></p>
+
+    <button type="button"  onclick="limpiar();">Limpiar</button>
+
+</body>
+</html>
