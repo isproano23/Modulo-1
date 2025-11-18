@@ -9,7 +9,7 @@ let empleados = [
 // EMPLEADO
 
 
-mostrarOpcionEmpleado = function () {
+mostrarOpcionEmpleados = function () {
     mostrarComponente("divEmpleado");
     ocultarComponente("divRol");
     ocultarComponente("divResumen");
