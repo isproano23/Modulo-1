@@ -56,7 +56,7 @@ mostrarEmpleados = function(){
     cmpTabla.innerHTML = contenidoTabla;
 }
 
-deshabilitarCamposFormulario = function () {
+deshabilitarCamposFormularios = function () {
     deshabilitarComponente("txtCedula");
     deshabilitarComponente("txtNombre");
     deshabilitarComponente("txtApellido");
@@ -64,7 +64,7 @@ deshabilitarCamposFormulario = function () {
     deshabilitarComponente("btnGuardar");
 }
 
-ejecutarNuevo = function () {
+ejecutarNuevos = function () {
     esNuevo = true;
     habilitarComponente("txtCedula");
     habilitarComponente("txtNombre");
