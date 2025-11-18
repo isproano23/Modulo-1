@@ -17,14 +17,14 @@ mostrarOpcionEmpleado = function () {
     deshabilitarCamposFormulario(); 
 }
 
-mostrarOpcionRol = function () {
+mostrarOpcionRoles = function () {
     mostrarComponente("divRol");
     ocultarComponente("divEmpleado");
     ocultarComponente("divResumen");
     deshabilitarBotonGuardarRol(); 
 }
 
-mostrarOpcionResumen = function () {
+mostrarOpcionResumenes = function () {
     mostrarComponente("divResumen");
     ocultarComponente("divEmpleado");
     ocultarComponente("divRol");
