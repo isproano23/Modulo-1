@@ -46,6 +46,6 @@ deshabilitarComponente = function(idComponente){
     document.getElementById(idComponente).disabled = true;
 }
 
-habilitarComponente = function(idComponente){
+habilitarComponentes = function(idComponente){
     document.getElementById(idComponente).disabled = false;
 }
