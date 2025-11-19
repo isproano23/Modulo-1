@@ -142,7 +142,7 @@ limpiar = function() {
     }
 }
 
-ejecutarBusqueda = function() {
+ejecutarBusquedas = function() {
     mostrarTexto("lblErrorBusqueda", "");
     let cedulaBusqueda = recuperarTexto("txtBusquedaCedula");
     
